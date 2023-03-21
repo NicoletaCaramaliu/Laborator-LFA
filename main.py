@@ -28,13 +28,12 @@
             ok=1
     print(drum,ok)"""
 
-drum=[]
 verif = False
 def verificare(cuv,st_act,st_fin,tranzitii):
     global verif
-    drum.append(st_act)
     if cuv=="":
         if st_act in st_fin:
+            drum.append(st_act)
             g.write("Cuvantul este acceptat\nDrumul parcurs de acesta este ")
             for d in drum:
                 g.write("->"+d)
@@ -43,11 +42,12 @@ def verificare(cuv,st_act,st_fin,tranzitii):
     elif cuv[0] in tranzitii:
         for stare in tranzitii[cuv[0]]:
             if stare[0]==st_act:
+                drum.append(st_act)
                 verificare(cuv[1:],stare[1],st_fin,tranzitii)
 
 
 
-f = open("cuvinte.in", "r")
+f = open("cuvinte2.in", "r")
 g = open("cuvinte.out", "w")
 tranzitii = {}
 n = int(f.readline())
@@ -62,8 +62,11 @@ for _ in range(n):
 
 
 stari_finale=f.readline().split()
-cuvinte=f.readline().split()
-for cuvant in cuvinte:
+nrcuv=int(f.readline())
+for i in range(nrcuv):
+    drum = []
+    cuvant=f.readline().strip()
+    print(cuvant)
     verif = False
     copie=stare_actuala
     verificare(cuvant,copie,stari_finale,tranzitii)

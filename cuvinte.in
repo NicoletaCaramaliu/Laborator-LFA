@@ -1,4 +1,4 @@
-10
+12
 q1
 q1 1 q3
 q1 0 q2
@@ -9,7 +9,12 @@ q3 1 q5
 q4 0 q3
 q4 1 q5
 q5 0 q5
-5 1 q6
-
+q5 1 q6
+q6 0 q6
+q6 1 q6
 q1 q3 q5
-bbabbabba abbabba ababababababaaaaaba bbbbbbaaaaabbbabbaaaaaaab
+4
+111
+
+100000000
+10010000011
