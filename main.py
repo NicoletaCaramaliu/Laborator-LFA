@@ -47,8 +47,8 @@ def verificare(cuv,st_act,st_fin,tranzitii):
 
 
 
-f = open("cuvant.in", "r")
-g = open("cuvant.out", "w")
+f = open("cuvinte.in", "r")
+g = open("cuvinte.out", "w")
 tranzitii = {}
 n = int(f.readline())
 stare_actuala = f.readline().strip()

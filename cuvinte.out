@@ -1,0 +1,11 @@
+Cuvantul este acceptat
+Drumul parcurs de acesta este ->q0->q0->q0->q1->q2->q3->q4->q4->q4->q4
+
+Cuvantul este acceptat
+Drumul parcurs de acesta este ->q0->q0->q0->q1->q2->q3->q4->q4->q4->q4->q0->q1->q2->q3->q4->q4->q4->q4
+
+Neacceptat
+
+Cuvantul este acceptat
+Drumul parcurs de acesta este ->q0->q0->q0->q1->q2->q3->q4->q4->q4->q4->q0->q1->q2->q3->q4->q4->q4->q4->q0->q1->q2->q1->q2->q1->q2->q1->q2->q1->q2->q1->q2->q1->q1->q1->q1->q1->q2->q1->q0->q0->q0->q0->q0->q0->q0->q1->q1->q1->q1->q1->q2->q3->q1->q1->q2->q3->q4->q4->q4->q4->q4->q4->q4->q4
+
