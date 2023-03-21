@@ -47,7 +47,7 @@ def verificare(cuv,st_act,st_fin,tranzitii):
 
 
 
-f = open("cuvinte2.in", "r")
+f = open("cuvinte.in", "r")
 g = open("cuvinte.out", "w")
 tranzitii = {}
 n = int(f.readline())
@@ -66,7 +66,6 @@ nrcuv=int(f.readline())
 for i in range(nrcuv):
     drum = []
     cuvant=f.readline().strip()
-    print(cuvant)
     verif = False
     copie=stare_actuala
     verificare(cuvant,copie,stari_finale,tranzitii)
